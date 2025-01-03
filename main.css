@@ -92,10 +92,11 @@ body {
     transform: matrix(1.1, 0, 0, 1.1, 5, -5);
 }
 
-@media (max-width: 100px) {
+@media (max-width: 768px) {
     .header {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .contact-info {
@@ -323,6 +324,18 @@ body {
 .modal-content {
     width: 60%;
 }
+
+@media (max-width: 768px) {
+    /* Different widths for .spmodal-content vs .modal-content */
+    .spmodal-content {
+        width: 90%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
 
 @keyframes zoom {
     from { transform: scale(0.3); }
