@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Muhammad Farouk's Resume",
+    "page_title": "Muhammad Farouk's Resume",
+    "google_analytics_id": "G-8MG6RHGH5X",
+    "css_version": "2.0",
+    "script_version": "2.0"
+  },
+  "profile": {
+    "name": "Muhammad Farouk",
+    "photo": "./my_photo.png",
+    "headline": "Python Developer",
+    "summary": "An innovative and dynamic professional with a BSc in Zoology & Chemistry and a diverse career spanning tutoring, quality assurance, graphics, and software development. Proven expertise in educational technology, data analysis, and content automation with a robust portfolio in academic publishing and e-learning solutions. Passionate about leveraging technology to enhance learning and operational efficiency. Demonstrated success in content management, data analysis, and the automation of tasks within content teams. Adept in Python, Excel, and Google Apps Script to enhance efficiency and foster data-driven decision-making."
+  },
+  "contact": [
+    {
+      "href": "https://maps.app.goo.gl/aN6Mp2mziCJLqCnT7",
+      "icon": "fas fa-map-marker-alt",
+      "label": "Cairo, Egypt",
+      "pdf_label": "Cairo, Egypt"
+    },
+    {
+      "href": "https://wa.me/201014332694",
+      "icon": "fab fa-whatsapp",
+      "label": "",
+      "aria_label": "WhatsApp",
+      "pdf_label": ""
+    },
+    {
+      "href": "tel:+201014332694",
+      "icon": "fas fa-phone",
+      "label": "+201014332694",
+      "pdf_label": "+201014332694"
+    },
+    {
+      "href": "mailto:mofasuhu@gmail.com",
+      "icon": "fas fa-envelope",
+      "label": "mofasuhu@gmail.com",
+      "pdf_label": "mofasuhu@gmail.com"
+    },
+    {
+      "href": "https://www.linkedin.com/in/muhammadfarouk",
+      "icon": "fab fa-linkedin",
+      "label": "LinkedIn",
+      "pdf_label": "linkedin.com/in/muhammadfarouk"
+    },
+    {
+      "href": "https://github.com/mofasuhu",
+      "icon": "fab fa-github",
+      "label": "GitHub",
+      "pdf_label": "github.com/mofasuhu"
+    },
+    {
+      "href": "https://www.shutterstock.com/g/MoFarouk",
+      "icon": "fas fa-camera",
+      "label": "Shutterstock",
+      "pdf_label": "shutterstock.com/g/MoFarouk"
+    },
+    {
+      "href": "https://mofasuhu.github.io/",
+      "icon": "fas fa-globe",
+      "label": "website: mofasuhu.github.io",
+      "pdf_label": "website: mofasuhu.github.io",
+      "pdf_only": true
+    }
+  ],
+  "experience": [
+    {
+      "title": "Content Engineer",
+      "meta": "Nagwa, Cairo, Egypt | Aug 2025 - Present",
+      "bullets": [
+        "Drive cross-functional efficiency by designing and deploying custom AI agents and automated scripts, cutting down manual task times across multiple business units.",
+        "Architect and develop internal tools and web applications to streamline workflows for Production, HR, and Finance divisions, significantly reducing operational bottlenecks.",
+        "Lead end-to-end data processing and advanced data analysis, transforming raw datasets into actionable insights to improve operational decision-making and data integrity.",
+        "Manage complex content migration initiatives, architecting robust pipelines for seamless, bulk data transformation and migration from legacy systems to modern structures.",
+        "Design and launch next-generation production systems that optimize content delivery while maintaining strict quality and productivity standards.",
+        "Engineer automated pipelines for digital product generation, enabling the bulk creation of high-quality sessions, books, exams, question banks, and audio assets through AI integration."
+      ]
+    },
+    {
+      "title": "Python Developer (Automation and Data Specialist)",
+      "meta": "Nagwa, Cairo, Egypt | Oct 2023 - Aug 2025",
+      "bullets": [
+        "Developed and deployed a suite of Python-based tools to automate complex data processing and content management tasks, significantly enhancing operational efficiency and reducing manual effort for content teams.",
+        {
+          "text": "Engineered a robust data migration pipeline to process over 600,000 JSON files. This involved creating sophisticated Python scripts for data categorization, cleaning, and transformation, including:",
+          "subitems": [
+            "Parsing XML files to replace SVG elements with corresponding LaTeX code in JSON.",
+            "Converting LaTeX commands into MathLive syntax to support a modern, interactive content standard.",
+            "Implementing a YAML-based regex management system for precise, large-scale text and code replacements.",
+            "Developing specialized functions to handle edge cases and ensure high-fidelity data conversion."
+          ]
+        },
+        "Led data-driven initiatives by performing large-scale data extraction, cleaning, and analysis using Python, enabling informed strategic decision-making.",
+        "Authored and optimized scalable Python scripts for efficiency, ensuring seamless processing of large datasets and automating critical file management tasks.",
+        {
+          "text": "Contributed to open-source by publishing selected Python automation tools. A portfolio of projects is available on my GitHub:",
+          "link": {
+            "href": "https://github.com/mofasuhu",
+            "label": "github.com/mofasuhu"
+          }
+        },
+        "Ensured data integrity throughout the migration and transformation processes by implementing rigorous testing, debugging, and validation protocols."
+      ]
+    },
+    {
+      "title": "Graphics Quality Assurance Specialist, Newcomers Trainer, and Python Developer",
+      "meta": "Nagwa, Cairo, Egypt | Jan 2017 - Sep 2023",
+      "bullets": [
+        "Devised innovative drawing techniques utilizing LaTeX, Chemdoodle, Adobe Illustrator, and Adobe Photoshop.",
+        "Orchestrated comprehensive training programs for newcomers, monitoring progress and providing ongoing support."
+      ]
+    },
+    {
+      "title": "Quality Assurance Specialist",
+      "meta": "Egypt Man Co. for Food Industries, Cairo, Egypt | Feb 2015 - Jun 2016",
+      "bullets": [
+        "Oversaw quality control processes and material standards, ensuring adherence to company and industry guidelines.",
+        "Produced technical files to facilitate clear communication and project documentation."
+      ]
+    },
+    {
+      "title": "Finalization Quality Assurance Specialist",
+      "meta": "Hindawi Publishing, Cairo, Egypt | Sep 2012 - Feb 2015",
+      "bullets": [
+        "Conducted rigorous quality checks to ensure published materials aligned with in-house journal styles and standards.",
+        "Generated HTML and ePub versions of articles, enhancing accessibility and reader engagement."
+      ]
+    },
+    {
+      "title": "Medical Customer Service Representative",
+      "meta": "Wasla Outsourcing, Cairo, Egypt | Mar 2011 - Jun 2012",
+      "bullets": [
+        "Managed patient inquiries with empathy and efficiency, maintaining high standards of customer service and care."
+      ]
+    },
+    {
+      "title": "Science Teacher",
+      "meta": "Talaea Al-Azhar Al-Sharief Institute, Cairo, Egypt | Sep 2009 - Aug 2010",
+      "bullets": [
+        "Delivered engaging science lessons to prep-school students, fostering a love of learning and scientific inquiry."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Hawary Shop — Full-Stack E-Commerce Platform",
+      "meta_html": "Personal portfolio project | Jan 2025 - Present | Hosted on <a href=\"https://mist-app.onrender.com/\" target=\"_blank\">Render</a>",
+      "summary_html": "Designed, built, and deployed a production-ready bilingual e-commerce platform (<a href=\"https://mist-app.onrender.com/\" target=\"_blank\">mist-app.onrender.com</a>) with Python, Flask, PostgreSQL, and Gunicorn — modular <code>app/</code> architecture with env validation on startup.",
+      "bullets": [
+        {
+          "strong": "Full shopping flow:",
+          "subitems": [
+            "Browse → product image gallery → cart → promo codes → Paymob or cash-on-delivery → order tracking with automated status emails.",
+            "Per-governorate delivery fees with dimensional-weight calculation."
+          ]
+        },
+        {
+          "strong": "Engagement & i18n:",
+          "subitems": [
+            "Wishlist, verified buyer reviews and star ratings, DB-driven Arabic/English translations with RTL and Cairo/Inter typography."
+          ]
+        },
+        {
+          "strong": "Admin & payments:",
+          "subitems": [
+            "Sidebar admin UI: CRUD, reports, promo codes, translation management, wishlist oversight, and TOTP 2FA.",
+            "Paymob integration with strict webhook HMAC verification, refunds, and failed-transaction logging."
+          ]
+        },
+        {
+          "strong": "Security, quality & SEO:",
+          "subitems": [
+            "CSP via Flask-Talisman, login lockout, scrypt password hashing, upload whitelist; pytest suite (~27 tests) covering auth, cart, checkout, SEO, and email.",
+            "Per-page meta, Open Graph, Twitter cards, Product JSON-LD, dynamic sitemap and robots.txt; SEO-friendly product slug URLs remain a planned follow-up."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science (B.Sc.) in Zoology and Chemistry",
+      "institution": "Ain Shams University, Cairo, Egypt",
+      "year": "2009",
+      "certificate": {
+        "modal_id": "BSC_Certificate",
+        "image": "./BSc.jpg",
+        "alt": "B.Sc. Certificate",
+        "modal_class": "spmodal-content"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Data Analysis Challenger Track - Udacity",
+      "modal_id": "dataAnalysisChallengerCert",
+      "image": "./Data_Analysis.jpg",
+      "alt": "Data Analysis Challenger Track Certificate",
+      "modal_class": "spmodal-content"
+    },
+    {
+      "name": "Data Analysis Professional Track - Udacity",
+      "modal_id": "dataAnalysisProfessionalCert",
+      "image": "./Data_Analysis.jpg",
+      "alt": "Data Analysis Professional Track Certificate",
+      "modal_class": "spmodal-content"
+    },
+    {
+      "name": "Learning Django - LinkedIn Learning",
+      "modal_id": "learningDjangoCert",
+      "image": "./Learning_Django.png",
+      "alt": "Learning Django Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Learning Git and GitHub - LinkedIn Learning",
+      "modal_id": "learningGitGithubCert",
+      "image": "./Learning_Git.png",
+      "alt": "Learning Git and GitHub Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Tableau Essential Training - LinkedIn Learning",
+      "modal_id": "tableauTrainingCert",
+      "image": "./Tableau.png",
+      "alt": "Tableau Essential Training Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Learning REST APIs - LinkedIn Learning",
+      "modal_id": "learningRestApisCert",
+      "image": "./Learning_REST_APIs.png",
+      "alt": "Learning REST APIs Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Django Essential Training - LinkedIn Learning",
+      "modal_id": "djangoEssentialTrainingCert",
+      "image": "./Django_Essential_Training.png",
+      "alt": "Django Essential Training Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Django: Forms - LinkedIn Learning",
+      "modal_id": "djangoFormsCert",
+      "image": "./Django_Forms.png",
+      "alt": "Django: Forms Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Building RESTful APIs with Flask - LinkedIn Learning",
+      "modal_id": "buildingRestfulFlaskCert",
+      "image": "./Building_RESTful_APIs.png",
+      "alt": "Building RESTful APIs with Flask Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Introduction to AWS for Non-Engineers - LinkedIn Learning",
+      "modal_id": "introAwsCert",
+      "image": "./AWS_Cloud_Concepts.png",
+      "alt": "Introduction to AWS for Non-Engineers Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Python Essential Training - LinkedIn Learning",
+      "modal_id": "pythonTrainingCert",
+      "image": "./Python_Essential_Training.png",
+      "alt": "Python Essential Training Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Building a Personal Portfolio with Django - LinkedIn Learning",
+      "modal_id": "personalPortfolioDjangoCert",
+      "image": "./Building_Portfolio_Django.png",
+      "alt": "Building a Personal Portfolio with Django Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Deploying Django Apps - LinkedIn Learning",
+      "modal_id": "deployingDjangoAppsCert",
+      "image": "./Deploying_Django_Apps.png",
+      "alt": "Deploying Django Apps Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Become a Django Developer - LinkedIn Learning",
+      "modal_id": "djangoDeveloperCert",
+      "image": "./Become_Django_Developer.jpg",
+      "alt": "Become a Django Developer Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "English for Career Development Self-Paced MOOC 2022 - Canvas Credentials (Badgr)",
+      "modal_id": "englishCareerDevMoocCert",
+      "image": "./English_for_Career_MOOC.jpg",
+      "alt": "English for Career Development Self-Paced MOOC 2022 Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Water analysis principles and applications - Ain Shams University",
+      "modal_id": "waterAnalysisCert",
+      "image": "./Water_Analysis_and_Chromatography.jpg",
+      "alt": "Water Analysis Principles and Applications Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Principles and applications of advanced chromatographic techniques - Ain Shams University",
+      "modal_id": "chromatographicTechCert",
+      "image": "./Water_Analysis_and_Chromatography.jpg",
+      "alt": "Advanced Chromatographic Techniques Certificate",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "Basic Business Skills Acquisition Program \"BBSA\" - AMIDEAST, CAME, Global Knowledge",
+      "modal_id": "bbsaCert",
+      "image": "./BBSA.jpg",
+      "alt": "Business Skills Acquisition Program",
+      "modal_class": "modal-content"
+    },
+    {
+      "name": "TOEIC - Score: 585 - Amideast",
+      "modal_id": "toeicCert",
+      "image": "./TOEIC_TOEFL.jpg",
+      "alt": "TOEIC Score 585 Certificate",
+      "modal_class": "spmodal-content"
+    },
+    {
+      "name": "TOEFL - Score: 537 - Amideast",
+      "modal_id": "toeflCert",
+      "image": "./TOEIC_TOEFL.jpg",
+      "alt": "TOEFL Score 537 Certificate",
+      "modal_class": "spmodal-content"
+    },
+    {
+      "name": "Some Appreciation Letters",
+      "modal_id": "AppLett",
+      "image": "./AppLett.png",
+      "alt": "Some Appreciation Letters",
+      "modal_class": "spmodal-content"
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python",
+      "Coding",
+      "Google AppScript",
+      "Automation",
+      "Data Processing and Data Analysis",
+      "Flask",
+      "PostgreSQL",
+      "AI Agents & Automation",
+      "Django",
+      "AutoCAD",
+      "Adobe Illustrator",
+      "Chemdoodle",
+      "Tableau",
+      "Git and GitHub"
+    ],
+    "soft": [
+      "Creative problem-solving",
+      "Analytical thinking",
+      "Teamwork",
+      "Academic publishing",
+      "Educational technology"
+    ]
+  },
+  "pdf": {
+    "references_heading": "References",
+    "references_text": "To view the certificates, please click",
+    "certificates_url": "https://drive.google.com/file/d/1YTGPovs8TGNZNZEYlhS_VSSVPgVSkhvT/view?usp=sharing",
+    "certificates_icon": "fas fa-certificate"
+  }
+}

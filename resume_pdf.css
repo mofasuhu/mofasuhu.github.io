@@ -1,0 +1,254 @@
+/* Compact modern PDF — target 3–4 pages A4 */
+
+@page {
+  size: A4;
+  margin: 7mm 8mm;
+}
+
+body.resume-pdf {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.32;
+  color: #1e293b;
+  background: #fff;
+}
+
+body.resume-pdf .container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* Compact header strip */
+body.resume-pdf .header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 10px;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, #0f4c75 0%, #0a3554 100%);
+  border-radius: 6px;
+  color: #fff;
+  box-shadow: none;
+}
+
+body.resume-pdf .header img {
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  flex-shrink: 0;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+body.resume-pdf .header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+body.resume-pdf .container h1 {
+  font-size: 17pt;
+  margin: 0;
+  line-height: 1.15;
+}
+
+body.resume-pdf .headline-tag {
+  font-size: 8.5pt;
+  margin-top: 2px;
+  opacity: 0.95;
+}
+
+body.resume-pdf .contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+body.resume-pdf .contact-info a {
+  font-size: 7pt;
+  padding: 2px 7px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  color: #fff;
+}
+
+/* Sections */
+body.resume-pdf .section {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  box-shadow: none;
+  page-break-inside: auto;
+}
+
+body.resume-pdf .section h2 {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: #0f4c75;
+  margin: 0 0 6px;
+  padding-bottom: 3px;
+  border-bottom: 1.5px solid #e85d04;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+body.resume-pdf .section-summary p {
+  margin: 0;
+  font-size: 9pt;
+  text-align: justify;
+}
+
+/* Experience — tight */
+body.resume-pdf .experience {
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  background: #f8fafc;
+  border-left: 2px solid #e85d04;
+  border-radius: 4px;
+  page-break-inside: auto;
+}
+
+body.resume-pdf .job-title {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #0a3554;
+  margin: 0;
+}
+
+body.resume-pdf .experience-meta,
+body.resume-pdf .experience > p {
+  font-size: 8.5pt;
+  color: #64748b;
+  margin: 1px 0 3px;
+}
+
+body.resume-pdf .view-more {
+  display: none !important;
+}
+
+body.resume-pdf .experience ul.pdf-expanded {
+  display: block !important;
+  margin: 2px 0 0;
+  padding-left: 12px;
+}
+
+body.resume-pdf .experience ul.pdf-expanded > li {
+  padding: 1px 0 1px 0;
+  margin: 0;
+  font-size: 8.5pt;
+  list-style-type: disc;
+  background: none;
+}
+
+body.resume-pdf .experience ul.pdf-expanded > li::before {
+  content: none !important;
+}
+
+body.resume-pdf .experience ul.pdf-expanded ul {
+  padding-left: 12px;
+  margin: 1px 0;
+}
+
+body.resume-pdf .experience ul.pdf-expanded ul > li {
+  list-style-type: circle;
+  font-size: 8pt;
+}
+
+body.resume-pdf .experience ul.pdf-expanded ul > li::before {
+  content: none !important;
+}
+
+body.resume-pdf .section.certifications li {
+  padding: 2px 0;
+  font-size: 8pt;
+  border: none;
+}
+
+body.resume-pdf .certificates-list {
+  columns: 2;
+  column-gap: 12px;
+}
+
+body.resume-pdf .certificates-list li {
+  break-inside: avoid;
+  padding: 1px 0;
+}
+
+body.resume-pdf .education-degree {
+  display: block;
+  font-weight: 600;
+  font-size: 9pt;
+}
+
+body.resume-pdf .education-institution {
+  display: block;
+  font-size: 8.5pt;
+  color: #64748b;
+}
+
+body.resume-pdf .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+body.resume-pdf .skills li {
+  display: inline-block;
+  font-size: 7.5pt;
+  padding: 2px 6px;
+  margin: 0;
+  background: #fff4ed;
+  border: 1px solid #ffd6c2;
+  border-radius: 3px;
+  color: #0a3554;
+}
+
+body.resume-pdf .skill-title {
+  font-size: 8pt;
+  margin: 6px 0 4px;
+  color: #64748b;
+}
+
+body.resume-pdf .skill-title:first-of-type {
+  margin-top: 0;
+}
+
+body.resume-pdf .pdf-references {
+  padding: 6px 10px;
+  page-break-inside: avoid;
+}
+
+body.resume-pdf .pdf-references-line {
+  margin: 0;
+  font-size: 8.5pt;
+}
+
+body.resume-pdf .pdf-certificates-link {
+  color: #0f4c75;
+  margin-left: 0.25em;
+}
+
+body.resume-pdf .pdf-certificates-link i {
+  font-size: 10pt;
+}
+
+body.resume-pdf a {
+  color: #0f4c75;
+  text-decoration: none;
+}
+
+body.resume-pdf code {
+  font-size: 8pt;
+  background: #f1f5f9;
+  padding: 0 2px;
+}
+
+body.resume-pdf .section.certifications button,
+body.resume-pdf .modal {
+  display: none !important;
+}

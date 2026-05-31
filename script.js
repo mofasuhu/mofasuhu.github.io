@@ -18,13 +18,13 @@ document.addEventListener('DOMContentLoaded', function () {
         button.addEventListener('click', function () {
             const experience = this.closest('.experience');
             experience.classList.toggle('active');
-            const details = experience.getElementsByTagName('ul')[0];
+            const details = experience.querySelector('.experience-details, ul');
             if (details.style.display === 'block') {
                 details.style.display = 'none';
-                button.innerHTML = 'View More <i class="fas fa-chevron-down"></i>';
+                button.innerHTML = 'View more <i class="fas fa-chevron-down"></i>';
             } else {
                 details.style.display = 'block';
-                button.innerHTML = 'View Less <i class="fas fa-chevron-up"></i>';
+                button.innerHTML = 'View less <i class="fas fa-chevron-up"></i>';
             }
         });
     });

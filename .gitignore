@@ -4,3 +4,7 @@ authentication.js
 node_modules
 notes/
 **/*-todo.md
+.resume_pdf_build.html
+Muhammad_Farouk_Resume_*.pdf
+__pycache__/
+.venv/

@@ -1,0 +1,51 @@
+{% macro render_bullet_item(bullet) -%}
+  {% if bullet is string %}
+    {{ bullet }}
+  {% elif bullet.strong is defined %}
+    <strong>{{ bullet.strong }}</strong>
+    {% if bullet.subitems %}
+      <ul>
+        {% for sub in bullet.subitems %}
+          <li>{{ sub }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% elif bullet.text is defined %}
+    {{ bullet.text }}
+    {% if bullet.subitems %}
+      <ul>
+        {% for sub in bullet.subitems %}
+          <li>{{ sub }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if bullet.link %}
+      <a href="{{ bullet.link.href }}" target="_blank">{{ bullet.link.label }}</a>.
+    {% endif %}
+  {% endif %}
+{%- endmacro %}
+
+{% macro render_bullets(bullets, for_pdf=false) -%}
+  <ul{% if not for_pdf %} class="experience-details" style="display: none;"{% else %} class="pdf-expanded"{% endif %}>
+    {% for bullet in bullets %}
+      <li>{{ render_bullet_item(bullet) }}</li>
+    {% endfor %}
+  </ul>
+{%- endmacro %}
+
+{% macro render_experience_block(entry, for_pdf=false) -%}
+  <div class="experience">
+    <div class="job-title">{{ entry.title }}</div>
+    {% if entry.meta_html %}
+      <p class="experience-meta">{{ entry.meta_html | safe }}</p>
+    {% elif entry.meta %}
+      <p class="experience-meta">{{ entry.meta }}{% if not for_pdf %} <span class="view-more">View more <i class="fas fa-chevron-down"></i></span>{% endif %}</p>
+    {% endif %}
+    {% if entry.summary_html %}
+      <p class="experience-summary">{{ entry.summary_html | safe }}{% if not for_pdf %} <span class="view-more">View more <i class="fas fa-chevron-down"></i></span>{% endif %}</p>
+    {% endif %}
+    {% if entry.bullets %}
+      {{ render_bullets(entry.bullets, for_pdf) }}
+    {% endif %}
+  </div>
+{%- endmacro %}
